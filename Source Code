@@ -1,0 +1,53 @@
+@echo off
+title Hack Your Way Out
+color 0a
+echo.
+echo                              Welcome To Hack Your Way Out!
+echo.
+echo                You are stuck in the universe you created, how will you escape?
+echo.
+echo start This will begin your adventure
+echo end This will end your adventure
+echo.
+set /p var= Enter Here_
+if %var%==start goto start
+if %var%==end goto end
+
+:Start
+cls
+echo.
+echo               You have been captured and sucked into the digital realm, if you don't escape you will be stuck here forever
+
+cls
+echo.
+echo type hack to start
+echo.
+echo type run if you cant handle it!
+echo.
+set /p var= What do you want to do?_
+echo type hack to start
+pause
+if %var%==hack goto hack1
+if %var%==Run goto run
+
+:run
+cls
+echo.
+echo You can't escape this all you can do is hack outta here if you can
+pause
+:hack1
+cls
+echo.
+echo alright! wise choice! Ok I'm your guide Dax, so to get outta here you gotta hack the man and to do that you gotta open your terminal.
+pause
+
+todo make terminal command and go forward 4/3/17
+
+
+
+
+
+:end
+cls
+echo.
+echo Click the X
