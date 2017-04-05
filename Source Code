@@ -39,9 +39,22 @@ pause
 cls
 echo.
 echo alright! wise choice! Ok I'm your guide Dax, so to get outta here you gotta hack the man and to do that you gotta open your terminal.
-pause
+echo To do that type the following: open_terminal and we can begin the fun!
+set /p var= Enter Here_
+if %var%==open_terminal1 goto open_terminal1
 
-todo make terminal command and go forward 4/3/17
+:open_terminal1
+cls
+echo :>__
+echo Dax: Alright good work, the man hasnt cut this off yet, so to hack outta here you gotta learn some commands, type command_page and we will get started.
+set /p var= Enter Here_
+if %var%==command_page goto command_page
+
+:command_page
+cls
+
+
+
 
 
 
@@ -51,4 +64,3 @@ todo make terminal command and go forward 4/3/17
 cls
 echo.
 echo Click the X
-
