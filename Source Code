@@ -4,7 +4,7 @@ color 0a
 echo.
 echo                              Welcome To Hack Your Way Out!
 echo.
-echo                You are stuck in the universe you created, how will you escape?
+echo                You are stuck in the universe the man created, how will you escape?
 echo.
 echo start This will begin your adventure
 echo end This will end your adventure
@@ -51,3 +51,4 @@ todo make terminal command and go forward 4/3/17
 cls
 echo.
 echo Click the X
+
