@@ -1,0 +1,17 @@
+@echo off
+title Hack Your Way Out PT.2
+color 0a
+echo.
+echo                              Welcome To Hack Your Way Out Part 2!
+echo                                     Made by: Ross
+echo.
+echo                                   type begin to start!
+set /p var= Enter Here_
+if %var%==begin goto starter
+
+:starter
+cls
+echo                                   Filler:)
+
+set /p var= Enter Here_
+if %var%==next goto next
