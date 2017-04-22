@@ -1,17 +1,226 @@
 @echo off
-title Hack Your Way Out PT.2
+title Hack Your Way Out
 color 0a
 echo.
-echo                              Welcome To Hack Your Way Out Part 2!
-echo                                     Made by: Ross
+echo                              Welcome To Hack Your Way Out Part Two!
 echo.
-echo                                   type begin to start!
+echo                Looks like the man got to ya when you least expected it! You are trapped again...
+echo.
+echo                                        Can you escape again?
+echo start This will begin your adventure
+echo end This will end your adventure
+echo.
 set /p var= Enter Here_
-if %var%==begin goto starter
+if %var%==start goto tutorial
+if %var%==end goto end
 
-:starter
+
+:tutorial
 cls
-echo                                   Filler:)
+echo                To navigate through the game just hit enter
+echo          to go to the next page or type the prompted text, enjoy
+set /p var=
+if %var%==start goto start
 
+
+:start
+cls
+echo                      Welcome again... looks like you couldnt avoid the man!
+echo                  Well, looks like we gotta get you outta this mess again.
+echo.
+set /p var=
+if %var%==continue goto story1
+
+:story1
+cls
+echo *Last night you went to sleep early, felt confident about the coming day and
+echo you Feel that warm fuzzy feeling, like everything is going to be ok*
+
+set /p var=
+if %var%==start goto story2
+
+:story2
+cls
+echo *WAKE UP!*
+echo.
+echo  *COME ON WAKEY WAKEY*
+set /p var=
+if %var%==start goto story3
+
+:story3
+cls
+echo Hey there sleepy head!
+echo.
+echo So what have you done to the man this time?
+echo.
+echo What do you mean you dont know?
+echo Its gonna be harder to bail you out this time, I can't do all the heavy lifting!
+echo.
+echo Well we better get started if we are going to beat the man again!
+set /p var=
+if %var%==start goto action1
+
+:action1
+cls
+echo So, the man has been hard at work here in cyber space, he has a new arsenal of
+echo weapons and new ways to torment us, me and my team have been fighting since you
+echo left to keep the real world safe!
+echo.
+set /p var=
+if %var%==start goto action2
+
+
+:action2
+cls
+echo So, remember the commands?
+echo NO?!
+echo.
+echo alright then, to the terminal!
+
+set /p var=
+if %var%==start goto terminal
+
+:terminal
+cls
+echo                                             Command List:
+echo                                               hack
+echo                                               abort
+echo                                               trace
+echo                                               ping
+echo                                               empty
+echo                                               lace
+echo                                               trap
+echo                                               attack
+echo Alright man, try not to forget this time, now, back to the action!
+set /p var=
+if %var%==start goto action3
+
+:action3
+cls
+echo Alright lets hack the ma--
+echo .........
+echo .........
+echo .........
+
+set /p var=
+if %var%==start goto action4
+
+:action4
+cls
+echo .........
+echo .........
+echo .........
+
+set /p var=
+if %var%==start goto action5
+
+:action5
+cls
+echo .........
+echo .........
+echo .........
+
+set /p var=
+if %var%==start goto action6
+
+:action6
+echo Are you reading me?
+echo Yes Or No
 set /p var= Enter Here_
-if %var%==next goto next
+if %var%==yes goto action7
+
+:action7
+cls
+echo Oh god are you ok?
+echo.
+echo Good, we thought we lost ya!
+echo The man keeps evolving, that had to be a ddos attack
+set /p var=
+if %var%==start goto action8
+
+:action8
+cls
+echo He is trying your defenses!
+echo Lets strike em' back to knock him down so we can build our fire wall!
+set /p var=
+if %var%==start goto action9
+
+:action9
+cls
+echo Alright lets do this!
+echo Lets ddos the man and get into his main frame!
+set /p var=
+if %var%==start goto action10
+
+:action10
+cls
+echo ping his location first!
+echo Type Ping
+set /p var=
+if %var%==ping goto action11
+
+:action11
+echo location 89.77.1149.21
+echo.
+set /p var=
+if %var%==start goto action12
+
+:action12:
+echo Alright lets hit em' hard!
+echo Enter hackip and we will hit him down!
+set /p var=
+if %var%==hackip goto action13
+
+:action13
+cls
+echo Alright! Maybe that worked??
+echo Ping em' and lets see if that little bastard is still up and running!
+echo Type ping
+set /p var=
+if %var%==ping goto action14
+
+:action14
+.....................
+set /p var=
+if %var%==ping goto action15
+.....................
+set /p var=
+if %var%==ping goto action16
+.....................
+set /p var=
+if %var%==ping goto action17
+
+action17:
+cls
+echo Alright we got his ass!
+echo Now he for sure knows we mean business and that he can't keep you here for long if he wants to stay online!
+echo Now lets ge....
+set /p var=
+if %var%==ping goto action18
+
+:action18
+echo .............................
+set /p var=
+if %var%==ping goto action19
+
+:action19
+echo .............................
+set /p var=
+if %var%==ping goto action19
+
+:action19
+echo .............................
+set /p var=
+if %var%==ping goto action20
+
+:action20
+echo .............................
+set /p var=
+if %var%==ping goto action21
+
+:action21
+echo SHIT!
+echo The connections back thank god, we had to redirect his attack on the backend!
+echo glad we are still live though!
+echo He knows we wont go down without a fight, but damn he is powerful.
+echo we will get him again and again till you are out of here.
