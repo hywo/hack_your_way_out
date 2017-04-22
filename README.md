@@ -9,4 +9,6 @@ A five part text adventure about YOU being sucked into cyber space by the man, y
 5. Finish part 5
 
 # How to play:
+https://hywo.itch.io/
+Head over to Itch and download away!
 
