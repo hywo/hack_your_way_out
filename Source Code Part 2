@@ -180,13 +180,15 @@ set /p var=
 if %var%==ping goto action14
 
 :action14
-.....................
+echo .....................
 set /p var=
 if %var%==ping goto action15
-.....................
+:action15
+echo .....................
 set /p var=
 if %var%==ping goto action16
-.....................
+:action16
+echo .....................
 set /p var=
 if %var%==ping goto action17
 
@@ -224,3 +226,53 @@ echo The connections back thank god, we had to redirect his attack on the backen
 echo glad we are still live though!
 echo He knows we wont go down without a fight, but damn he is powerful.
 echo we will get him again and again till you are out of here.
+
+set /p var=
+if %var%==ping goto action22
+
+:action22
+cls
+echo Now lets build our firewall so we can hack from behind a shield
+echo type newbuild so we can start
+set /p var=
+if %var%==newbuild goto newbuild1
+
+:newbuild1
+cls
+echo So first things first, lets get our defenses up!
+set /p var=
+if %var%==attack goto firewallbuildattack1
+if %var%==defence goto firewallbuilddefence1
+
+:firewallbuildattack1
+cls
+echo Lets go
+echo so lets add a retainer layer to trip up the man
+echo type add_retainer
+set /p var=
+if %var%==attack goto firewallbuilddefence2
+
+
+:firewallbuilddefence2
+echo *Adding Retainer*
+echo Ok, so now every time the man attempts to hack you he has to hack through another layer and cant just instantly get to you
+echo now we need to add a backlog file so we can trace him with ease if he tries to attack
+echo so type add_backlog_file
+set /p var=
+if %var%==attack goto firewallbuilddefence3
+
+:firewallbuilddefence3
+echo *Adding Backlog**
+echo **Summoning executables**
+echo ***backlog enabled***
+echo Excellant!
+echo Now that we got the basics, lets stretch our muscles and zap the man!
+echo head back to the hack terminal!
+
+set /p var=
+if %var%==attack goto terminal4def1
+
+:terminal4def1
+cls
+echo sjbdjfbdjf
+pause
