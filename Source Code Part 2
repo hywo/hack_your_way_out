@@ -265,7 +265,7 @@ if %var%==attack goto firewallbuilddefence3
 echo *Adding Backlog**
 echo **Summoning executables**
 echo ***backlog enabled***
-echo Excellant!
+echo Excellent!
 echo Now that we got the basics, lets stretch our muscles and zap the man!
 echo head back to the hack terminal!
 
@@ -274,5 +274,33 @@ if %var%==attack goto terminal4def1
 
 :terminal4def1
 cls
-echo sjbdjfbdjf
+echo Alright, now that we have a firewall, we can hack him with no blow back!
+echo so lets hack em'!
+echo first lets ping the man! Type ping!
+set /p var=
+if %var%==ping goto terminal4def2
+:terminal4def2
+echo pinging 199.092.11.44
+echo **Status Online**
+echo Enter Command-
+echo We got em', hack em!
+set /p var=
+if %var%==hack goto terminal4def3
+:terminal4def3
+echo Hacking IP
+echo ..........
+set /p var=
+if %var%==attack goto terminal4def4
+:terminal4def4
+echo IP broken
+echo Hacking Firewall
+echo .................
+echo .................
+echo firewall down for 30 seconds
+echo Type strike!
+set /p var=
+if %var%==strike goto terminalfordef5
+:terminal4def5
+echo
+
 pause
