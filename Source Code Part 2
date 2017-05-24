@@ -301,6 +301,31 @@ echo Type strike!
 set /p var=
 if %var%==strike goto terminalfordef5
 :terminal4def5
-echo
+echo *Striking*
+echo *Running booter*
+echo *Loading assets*
+echo *sending pay load**
+echo .................
+echo .................
+echo .................
+echo *pay load sent*
+echo.
+echo Alright ping em' and lets see if they are still going!
+echo type ping!
+set /p var=
+if %var%==ping goto terminalfordef6
+
+:terminal4def6
+echo ..............
+echo ..............
+echo ..............
+echo ......... - connection established
+set /p var=
+if %var%==strike goto terminalfordef7
+
+:terminal4def7
+
+
+
 
 pause
