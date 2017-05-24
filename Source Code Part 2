@@ -324,8 +324,55 @@ set /p var=
 if %var%==strike goto terminalfordef7
 
 :terminal4def7
+echo Strike again!
+echo Their fire wall isnt recovered yet!
 
+echo type strike again!
+set /p var=
+if %var%==ping goto terminalfordef7
 
+:terminalfordef8
+echo .....
+echo .....
+echo openroutemade
+echo we are in! Initiate connection!
+echo type initiate!
+set /p var=
+if %var%==ping goto terminalfordef9
 
+:terminalfordef10
+cls
+echo After all this!
+echo We are in!
+echo type decompile!
+set /p var=
+if %var%==ping goto terminalfordef11
+
+:terminalfordef11
+echo **DECOMPILING**
+echo **DECOMPILING**
+echo **DECOMPIL--**
+set /p var=
+if %var%==ping goto terminalfordef12
+
+:terminalfordef13
+echo *You look up and yours eyes adjust*
+set /p var=
+if %var%==ping goto endgame1
+
+:endgame1
+cls
+echo *You look around...*
+set /p var=
+if %var%==ping goto endgame2
+
+:endgame2
+cls
+echo *You are back in your room looking at your computer, you beat the man*
+set /p var=
+if %var%==ping goto endgame3
+
+:endgame3
+echo Thanks for playing part 2!! Will their be a part 3? Who knows!
 
 pause
